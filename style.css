@@ -1,0 +1,90 @@
+
+body{
+    background-color: white;
+    overflow: none;
+    max-height: 400px;
+    
+}
+
+
+.container{
+    margin: auto;
+    max-width: 30%;
+    height: 32em;
+    background-color: rgb(130, 190, 61);
+    opacity: 0.9;
+    position: relative;
+    bottom: 14em;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    border: 5px solid gray;
+    
+}
+
+input{
+width: 70%;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+
+h1{
+    margin-top: 40px;
+    color: rgb(66, 66, 66);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img2{
+    width: 350px;
+    position: relative;
+    left: 70%;
+    top: 350px;
+}
+
+.calcular{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.calcular:hover{
+    background-color: rgb(67, 67, 67);
+    color: white;
+}
+
+.amigos{
+    width: 25%;
+    position: relative;
+    right: 15%;
+   top: 90px;
+}
+
+.titulo{
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    text-shadow:1.8px 1.8px gray ;
+    color: black;
+}
+
+#resultado{
+    color:black;
+font-weight: bold;
+font-size: 1.2em;
+    height: 30%;
+    padding: 0.2em;
+    width: 12em;
+    margin: auto;
+    
+
+}
